@@ -1,0 +1,27 @@
+.contenedor{
+    max-height: 90px;
+    background: rgb(72, 33, 213);
+    display: flex;
+    overflow-x: auto;
+    border-radius: 10px;
+}
+
+.contenedor::-webkit-scrollbar{
+   background: rgba(0, 0, 0, 1); 
+   border-radius: 10px;
+   width: 0px;
+   display: none;
+}
+
+.contenedor .obj{
+    min-width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #4A65A3;
+    color: #fff;
+    font-size: 1.1rem;
+   padding-left: 1%;
+   font-weight: bold;
+
+}
